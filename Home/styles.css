@@ -1,0 +1,148 @@
+body {
+  display: flex;
+  margin: 0%;
+  /* max-height: 100%; */
+}
+header {
+  display: flex;
+  background-color: #ffffff;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  /* max-height: 100%; */
+}
+
+/* .headerPages {
+} */
+.firstSection {
+  margin-top: -20rem;
+  padding: 4rem;
+  position: absolute;
+  bottom: 28rem;
+}
+
+.title-1 {
+  display: flex;
+  flex-direction: column;
+}
+.title-1 h3,
+h1,
+p {
+  font-style: normal;
+  font-family: "League Spartan";
+  top: 15rem;
+  left: 30px;
+  font-size: 18px;
+  color: rgb(227, 219, 235);
+  line-height: 30px;
+}
+.title-1 h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+.title-1 h1 {
+  font-weight: 300;
+  font-size: 80px;
+  line-height: 80px;
+}
+.title-1 p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.title-1 button {
+  position: absolute;
+  width: 245px;
+  height: 64px;
+  left: 165px;
+  top: 558px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.banner {
+  height: 100vh;
+  max-width: 100%;
+  position: relative;
+  object-fit: cover;
+  z-index: -1;
+}
+.secondSection {
+  padding: 20rem;
+
+  /* bottom: 28rem; */
+}
+.imageSection-1 {
+  flex: 1;
+}
+.landscape {
+  position: absolute;
+  width: 540px;
+  height: 704px;
+  left: 163px;
+  top: 840px;
+}
+.textSection-2 {
+  font-size: 48px;
+  padding-left: 44rem;
+  padding-top: 0rem;
+  position: absolute;
+}
+.backgroundImage {
+  position: absolute;
+  width: 871px;
+  height: 319px;
+  left: 0rem;
+  top: 1100px;
+  background: #5c6779;
+  mix-blend-mode: normal;
+  opacity: 0.08;
+  border-radius: 100px 0px 0px 0px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.thirdSection {
+  display:flex;
+}
+.textSection-3 {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  font-size: 48px;
+  padding-left: 5rem;
+  padding-top: 7rem;
+
+}
+.imageSection-3 {
+  display: flex;
+  /* position: absolute; */
+  width: 540px;
+  height: 720px;
+  /* left: 70rem; */
+  top: 119rem;
+}
+.fourthSection {
+  display: flex;
+  background-color: black;
+  max-height: 50rem;
+}
+.textSection-4 {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  bottom: 3rem;
+
+}
+.imageSection-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+}
+/* div > p {
+  color: brown;
+} */
+/* input[type = "text"]{
+  border: solid 2px red
+} */
