@@ -1,20 +1,27 @@
 body {
   display: flex;
   margin: 0%;
+  font-family: "League Spartan", sans-serif;
   /* max-height: 100%; */
 }
 header {
   display: flex;
   background-color: #ffffff;
+  justify-content: space-around;
+
+}
+.headerPages {
+  font-size: larger;
+  text-decoration: none;
+  color: black;
+ 
+
 }
 main {
   display: flex;
   flex-direction: column;
-  /* max-height: 100%; */
 }
 
-/* .headerPages {
-} */
 .firstSection {
   margin-top: -20rem;
   padding: 4rem;
@@ -37,7 +44,10 @@ p {
   color: rgb(227, 219, 235);
   line-height: 30px;
 }
-.title-1 h3 {
+.logo {
+  font-size: 80px;
+}
+.title-1 > h3 {
   font-weight: 400;
   font-size: 20px;
 }
@@ -69,25 +79,30 @@ p {
   z-index: -1;
 }
 .secondSection {
-  padding: 20rem;
-
-  /* bottom: 28rem; */
+  display: flex;
+  min-height: 80vh;
 }
 .imageSection-1 {
-  flex: 1;
 }
 .landscape {
   position: absolute;
   width: 540px;
   height: 704px;
-  left: 163px;
+  left: 180px;
   top: 840px;
 }
-.textSection-2 {
+.textSection-2 > h1 {
+  line-height: 48px;
+  letter-spacing: -0.5px;
   font-size: 48px;
-  padding-left: 44rem;
-  padding-top: 0rem;
-  position: absolute;
+  margin-left: 53rem;
+  color: black;
+  margin-top: 12rem;
+}
+.textSection-2 > p {
+  font-size: 20px;
+  margin-left: 53rem;
+  color: black;
 }
 .backgroundImage {
   position: absolute;
@@ -102,43 +117,57 @@ p {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .thirdSection {
-  display:flex;
-}
-.textSection-3 {
   display: flex;
-  flex-direction: column;
-  margin: 2rem;
+  min-height: 80vh;
+  flex-direction: row;
+  margin-left: 12rem;
+  gap: 10rem;
+  align-items: center;
+}
+.textSection-3 h1 {
+  line-height: 48px;
+  letter-spacing: -0.5px;
   font-size: 48px;
-  padding-left: 5rem;
-  padding-top: 7rem;
+  color: black;
+}
 
+.textSection-3 {
+  padding-left: 7rem;
+  font-size: 48px;
 }
 .imageSection-3 {
-  display: flex;
+  /* display: flex; */
+  /* margin-left: 19rem; */
   /* position: absolute; */
   width: 540px;
   height: 720px;
+  padding-left: 2rem;
   /* left: 70rem; */
-  top: 119rem;
+  /* top: 119rem; */
 }
 .fourthSection {
   display: flex;
   background-color: black;
   max-height: 50rem;
+  
+
+
 }
 .textSection-4 {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  padding: 24px;
   bottom: 3rem;
-
+  margin: auto;
+}
+h2 {
+  color: #ffffff;
 }
 .imageSection-4 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-
+  margin: 2rem;
 }
 /* div > p {
   color: brown;
