@@ -15,12 +15,12 @@ header {
   color: #000000;
 }
 main {
-  display: inline-block;
+  display: inline;
+
 }
 
 .banner {
   height: 100vh;
-  max-width: 100%;
   position: relative;
   object-fit: cover;
   z-index: -1;

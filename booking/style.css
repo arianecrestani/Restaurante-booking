@@ -10,7 +10,6 @@ main {
   flex-direction: column;
 }
 .banner {
-
   height: 70vh;
   max-width: 100%;
   position: relative;
