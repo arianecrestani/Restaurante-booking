@@ -1,38 +1,54 @@
 body {
-  display: flex;
-  margin: 0%;
+  margin: 0;
+  box-sizing: border-box;
   font-family: "League Spartan", sans-serif;
-  /* max-height: 100%; */
 }
 header {
   display: flex;
-  background-color: #ffffff;
+  min-height: 3rem;
   justify-content: space-around;
-
+  padding: 1rem;
 }
 .headerPages {
   font-size: larger;
   text-decoration: none;
-  color: black;
- 
-
+  color: #000000;
 }
 main {
-  display: flex;
-  flex-direction: column;
+  display: inline-block;
+}
+
+.banner {
+  height: 100vh;
+  max-width: 100%;
+  position: relative;
+  object-fit: cover;
+  z-index: -1;
+}
+
+button {
+  width: 245px;
+  height: 64px;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .firstSection {
-  margin-top: -20rem;
+  /* margin-top: -20rem; */
   padding: 4rem;
   position: absolute;
   bottom: 28rem;
+}
+.logo {
+  font-size: 20rem;
 }
 
 .title-1 {
   display: flex;
   flex-direction: column;
 }
+
 .title-1 h3,
 h1,
 p {
@@ -44,9 +60,7 @@ p {
   color: rgb(227, 219, 235);
   line-height: 30px;
 }
-.logo {
-  font-size: 80px;
-}
+
 .title-1 > h3 {
   font-weight: 400;
   font-size: 20px;
@@ -60,7 +74,7 @@ p {
   font-weight: 400;
   font-size: 20px;
 }
-.title-1 button {
+.title-1 > button {
   position: absolute;
   width: 245px;
   height: 64px;
@@ -71,25 +85,18 @@ p {
   display: flex;
   justify-content: space-between;
 }
-.banner {
-  height: 100vh;
-  max-width: 100%;
-  position: relative;
-  object-fit: cover;
-  z-index: -1;
-}
+
 .secondSection {
   display: flex;
   min-height: 80vh;
 }
-.imageSection-1 {
-}
+
 .landscape {
   position: absolute;
   width: 540px;
   height: 704px;
   left: 180px;
-  top: 840px;
+  top: 870px;
 }
 .textSection-2 > h1 {
   line-height: 48px;
@@ -117,41 +124,35 @@ p {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .thirdSection {
-  display: flex;
   min-height: 80vh;
-  flex-direction: row;
-  margin-left: 12rem;
-  gap: 10rem;
+  margin-left: 5rem;
   align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  margin-bottom: -3rem;
 }
-.textSection-3 h1 {
+.textSection-3 > h1 {
   line-height: 48px;
   letter-spacing: -0.5px;
   font-size: 48px;
   color: black;
 }
-
 .textSection-3 {
-  padding-left: 7rem;
   font-size: 48px;
 }
 .imageSection-3 {
-  /* display: flex; */
-  /* margin-left: 19rem; */
-  /* position: absolute; */
+  margin-top: 3rem;
   width: 540px;
   height: 720px;
-  padding-left: 2rem;
-  /* left: 70rem; */
-  /* top: 119rem; */
+  margin-top: 4rem;
 }
+
 .fourthSection {
   display: flex;
   background-color: black;
-  max-height: 50rem;
-  
-
-
+  min-height: 40rem;
+  padding-top: 3rem;
 }
 .textSection-4 {
   display: flex;
@@ -159,6 +160,13 @@ p {
   padding: 24px;
   bottom: 3rem;
   margin: auto;
+  padding-left: 4rem;
+}
+.description-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 4rem;
 }
 h2 {
   color: #ffffff;
@@ -167,7 +175,21 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin: 4rem;
+}
+.fifthSection {
+  min-height: 60vh;
+  display: flex;
+  flex-flow: row;
+  justify-self: center;
+}
+.fifthImage {
+  min-height: 600px;
+  padding: 5rem;
   margin: 2rem;
+}
+.textSection-5 {
+  align-self: center;
 }
 /* div > p {
   color: brown;
@@ -175,3 +197,19 @@ h2 {
 /* input[type = "text"]{
   border: solid 2px red
 } */
+.sixthSection {
+  padding: 4rem;
+  position: absolute;
+  bottom: -205rem;
+  right: 22rem;
+}
+.description-6 {
+  display: flex;
+  gap: 5rem;
+  z-index: -1;
+}
+.sixthImage {
+  min-width: 100%;
+  position: relative;
+  object-fit: cover;
+}

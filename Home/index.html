@@ -12,34 +12,32 @@
     <title></title>
   </head>
   <body>
+    <header>
+      <a href="home.html" class="headerPages">Home</a>
+      <a href="../booking/index.html" class="headerPages">Booking a table</a>
+      <a href="Content.html" class="headerPages">Contact</a>
+      <a href="Contact.html" class="headerPages">About us </a>
+    </header>
     <main>
-      <header>
-        <h2>Restaurante</h2>
-        <a href="home.html" class="headerPages">Home</a>
-        <li>
-          <a href="../booking/index.html" class="headerPages"
-            >Booking a table</a
-          >
-        </li>
-        <a href="Content.html" class="headerPages">Contact</a>
-        <a href="Contact.html" class="headerPages">About us </a>
-      </header>
-      <img
-        class="banner"
-        src="../images/homepage/hero-bg-desktop-plate-home.jpg"
-      />
-      <div class="firstSection">
-        <span class="title-1">
-          <h3 class="logo">dine</h3>
-          <h1>Exquisite dining since 1989</h1>
-          <p>
-            Experience our seasonal menu in beautiful country surroundings. Eat
-            the freshest produce from the comfort of our farmhouse.
-          </p>
-          <button>Book a table</button>
-        </span>
+      <div class="imageBanner">
+        <img
+          class="banner"
+          src="../images/homepage/hero-bg-desktop-plate-home.jpg"
+        />
+        <section class="firstSection">
+          <div class="title-1">
+            <h3 class="logo">dine</h3>
+            <h1>Exquisite dining since 1989</h1>
+            <p>
+              Experience our seasonal menu in beautiful country surroundings.
+              Eat the freshest produce from the comfort of our farmhouse.
+            </p>
+            <button>Book a table</button>
+          </div>
+        </section>
       </div>
-      <div class="secondSection">
+
+      <section class="secondSection">
         <div class="imageSection-1">
           <div class="backgroundImage"></div>
           <img
@@ -47,18 +45,16 @@
             src="../images/homepage/enjoyable-place-desktop.jpg"
           />
         </div>
-
         <div class="textSection-2">
           <h1>
-            hellllo
             Enjoyable place <br />
             for all the family
           </h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         </div>
-      </div>
-      <div class="thirdSection">
-        <span class="textSection-3">
+      </section>
+      <section class="thirdSection">
+        <div class="textSection-3">
           <h1>
             The most locally <br />
             sourced food
@@ -68,12 +64,12 @@
             local fishery. So you can be sure that you’re eating <br />
             the freshest, most sustainable food.
           </p>
-        </span>
+        </div>
         <div class="imageSection-3">
           <img class="" src="../images/homepage/locally-sourced-desktop.jpg" />
         </div>
-      </div>
-      <div class="fourthSection">
+      </section>
+      <section class="fourthSection">
         <div class="textSection-4">
           <h2>A few highlights from our menu</h2>
           <p>
@@ -87,7 +83,7 @@
           <img src="../images/homepage/chocolate-desktop-tablet.jpg" />
         </div>
 
-        <div>
+        <div class="description-4">
           <h2>Seared Salmon Fillet</h2>
           <p>
             Our locally sourced salmon served with a refreshing buckwheat summer
@@ -104,24 +100,36 @@
             shavings.
           </p>
         </div>
-        <!-- <div class="sixthSection">
-        <h2>Family Gathering</h2>
-        <p>
-          We love catering for entire families. So please bring everyone along
-          for a special meal with your loved ones. We’ll provide a memorable
-          experience for all.
-        </p>
-        <button>Book a Table</button>
-        <h4>Family Gathering</h4>
-        <h4>Special Events</h4>
-        <h4>Social Events</h4>
-      </div>
-      <div class="seventhSection">
-        <h1>Ready to make a reservation?</h1>
-        <img src="../images/homepage/" />
-      </div>
-      <div>
-        <footer>
+      </section>
+      <section class="fifthSection">
+        <div>
+          <img
+            class="fifthImage"
+            src="../images/homepage/family-gathering-desktop.jpg"
+          />
+        </div>
+        <div class="textSection-5">
+          <h2>Family Gathering</h2>
+          <p>
+            We love catering for entire families. So please bring everyone along
+            for a special meal with your loved ones. We’ll provide a memorable
+            experience for all.
+          </p>
+          <button>Book a Table</button>
+          <h4>Family Gathering</h4>
+          <h4>Special Events</h4>
+          <h4>Social Events</h4>
+        </div>
+      </section>
+      <img class="sixthImage" src="../images/homepage/ready-bg-desktop.jpg" />
+      <section class="sixthSection">
+        <div class="description-6">
+          <h1>Ready to make a reservation?</h1>
+          <button>Book a table</button>
+        </div>
+      </section>
+    </main>
+    <!-- <footer>
           <h1>dine</h1>
           <p>Marthwaite, Sedbergh Cumbria +00 44 123 4567</p>
           <p>
@@ -129,7 +137,5 @@
             11:30 PM
           </p>
         </footer> -->
-      </div>
-    </main>
   </body>
 </html>
