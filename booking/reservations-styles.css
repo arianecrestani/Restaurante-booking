@@ -10,12 +10,11 @@ main {
   flex-direction: column;
 }
 .banner {
-  min-width: 100%;
+  max-width: 100%;
   position: relative;
   object-fit: cover;
   height: 100vh;
   z-index: -1;
- 
 }
 
 .firstSection {
@@ -56,14 +55,13 @@ p {
   font-size: 20px;
 }
 .secondSection {
-
-  position: relative;
+  position: absolute;
   width: 540px;
   height: 20rem;
   max-height: fit-content;
   background: #ffff;
-  left: 80rem;
-  bottom: 18rem;
+  right: 2rem;
+  top: 70%;
 }
 .forms {
   display: flex;
@@ -72,7 +70,6 @@ p {
   align-items: center;
   margin: 5rem;
   gap: 2rem;
-
 }
 .thirdSection {
   min-height: 30vh;
@@ -91,15 +88,28 @@ input:active {
 }
 .name {
   width: 444px;
-
 }
-.email{
+.email {
   width: 444px;
 }
-button{
+.date {
+  width: 250px;
+}
+.time {
+  width: 250px;
+}
+
+button {
   width: 300px;
   height: 50px;
   background-color: #000000;
   color: #ffffff;
   border: 1px solid #ffffff;
+}
+footer{
+  background-color: #000000;
+  min-height: 240px;
+}
+span{
+  display: inline;
 }
