@@ -10,9 +10,11 @@ main {
   flex-direction: column;
 }
 .banner {
-  height: 70vh;
-  max-width: 100%;
+  min-width: 100%;
   position: relative;
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
  
 }
 
@@ -55,13 +57,13 @@ p {
 }
 .secondSection {
 
-  position: absolute;
+  position: relative;
   width: 540px;
   height: 20rem;
   max-height: fit-content;
   background: #ffff;
-  left: 79rem;
-  top: 42rem;
+  left: 80rem;
+  bottom: 18rem;
 }
 .forms {
   display: flex;
