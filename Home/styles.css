@@ -35,7 +35,6 @@ button {
 }
 
 .firstSection {
-  /* margin-top: -20rem; */
   padding: 4rem;
   position: absolute;
   bottom: 28rem;
@@ -43,7 +42,6 @@ button {
 .logo {
   font-size: 20rem;
 }
-
 .title-1 {
   display: flex;
   flex-direction: column;
