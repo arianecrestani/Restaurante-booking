@@ -17,9 +17,6 @@ header {
 main {
   display: inline;
 }
-/* .logo {
-  font-size: 20rem;
-} */
 .banner {
   max-width: 100%;
   position: relative;
@@ -93,7 +90,7 @@ p {
   flex-direction: row;
   justify-content: center;
   max-height: 30vh;
-  gap: 15rem;
+  gap: 8rem;
 }
 
 .landscape {
@@ -115,34 +112,36 @@ p {
 }
 .textSection-2 > p {
   font-size: 20px;
-  
 }
 
 .thirdSection {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  min-height: 35vh;
-  gap: 15rem;
-  bottom: 30rem;
+
+  /* max-width: 25rem;
+  min-width: 25rem; */
+  /* bottom: 30rem; */
 }
 .textSection-3 > h1 {
   line-height: 48px;
   letter-spacing: -0.5px;
   font-size: 48px;
   color: black;
-  max-width: 25rem;
 }
 .textSection-3 {
-  position: relative;
-  top: 10rem;
-  font-size: 48px;
+   position: relative;
+   max-width: 32rem;
+   gap: 3rem;
+   margin: 2rem;
+   padding-top: 10rem;
+
 }
 .imageSection-3 {
   position: relative;
   width: 540px;
   height: 720px;
-  top: 3rem;
+  top: 4rem;
 }
 
 .fourthSection {
@@ -151,7 +150,7 @@ p {
   min-height: 40rem;
   padding-top: 3rem;
 }
-.textSection-4 > h2{
+.textSection-4 > h2 {
   font-size: 40px;
 }
 .textSection-4 {
@@ -181,18 +180,22 @@ h2 {
   min-height: 60vh;
   display: flex;
   flex-flow: row;
-  justify-self: center;
-  margin: 8rem;
+  justify-content: center;
+  /* margin: 8rem; */
+  gap: 2rem;
+  max-width: 100%;
+
 }
 .fifthImage {
   min-height: 600px;
-  padding: 5rem;
+  margin: 5rem;
+  max-width: 100%;
 
 }
 .textSection-5 {
   align-self: center;
 }
-.textSection-5 > h2{
+.textSection-5 > h2 {
   color: #000000;
   font-size: 30px;
 }
@@ -205,7 +208,7 @@ h2 {
 .sixthSection {
   position: relative;
   min-height: 186px;
-  min-width: 100%;
+  /* max-width: 100%; */
 }
 .description-6 {
   display: flex;
