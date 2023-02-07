@@ -20,7 +20,7 @@ main {
 .firstSection {
   padding: 4rem;
   position: absolute;
-  bottom: 28rem;
+  bottom: 16rem;
 }
 
 .title-1 {
@@ -69,7 +69,7 @@ p {
   max-height: fit-content;
   align-items: center;
   margin: 5rem;
-  gap: 2rem;
+  gap: 3rem;
 }
 .thirdSection {
   min-height: 60vh;
@@ -106,10 +106,13 @@ button {
   color: #ffffff;
   border: 1px solid #ffffff;
 }
-footer{
+footer {
   background-color: #000000;
-  min-height: 240px;
+  min-height: 200px;
+  padding: 2rem;
 }
-span{
-  display: inline;
+span {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
 }

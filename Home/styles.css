@@ -16,7 +16,6 @@ header {
 }
 main {
   display: inline;
-
 }
 
 .banner {
@@ -39,7 +38,6 @@ button {
   padding: 0 4rem;
   position: relative;
   top: -45rem;
-
 }
 .logo {
   font-size: 20rem;
@@ -198,9 +196,8 @@ h2 {
   border: solid 2px red
 } */
 .sixthSection {
-
   position: relative;
-
+  min-height: 200px;
 }
 .description-6 {
   display: flex;
@@ -213,5 +210,14 @@ h2 {
   object-fit: cover;
   position: relative;
   z-index: -1;
-
+}
+footer {
+  background-color: #000000;
+  min-height: 180px;
+  padding: 2rem;
+}
+span {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
 }
