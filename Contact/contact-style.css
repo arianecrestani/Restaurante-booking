@@ -15,7 +15,7 @@ body {
   z-index: -1;
 }
 .firstSection {
-  padding: 6rem;
+  padding: 7rem;
   position: absolute;
   bottom: 17rem;
 }
@@ -25,15 +25,11 @@ body {
   color: #ffff;
 }
 
-
 .secondSection {
   display: flex;
   justify-content: center;
   height: 70vh;
   padding-top: 10rem;
-}
-.thirdSection {
-
 }
 
 img {
@@ -47,9 +43,11 @@ footer {
   background-color: #000000;
   min-height: 200px;
   padding: 2rem;
+  color: #ffff
 }
-span {
+footer > span {
   justify-content: space-evenly;
   display: flex;
   flex-direction: row;
+
 }
