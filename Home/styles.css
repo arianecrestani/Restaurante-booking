@@ -5,9 +5,9 @@ body {
 }
 header {
   display: flex;
-  min-height: 3rem;
   justify-content: space-around;
   padding: 1rem;
+  margin: 1rem;
 }
 .headerPages {
   font-size: larger;
@@ -100,11 +100,12 @@ p {
   position: relative;
   width: 540px;
   height: 704px;
-  bottom: 30rem;
+  bottom: 34rem;
 }
 .textSection-2 {
   position: relative;
-  bottom: 10rem;
+  bottom: 15rem;
+  max-width: 25rem;
 }
 .textSection-2 > h1 {
   line-height: 48px;
@@ -114,7 +115,7 @@ p {
 }
 .textSection-2 > p {
   font-size: 20px;
-  color: black;
+  
 }
 
 .thirdSection {
@@ -130,6 +131,7 @@ p {
   letter-spacing: -0.5px;
   font-size: 48px;
   color: black;
+  max-width: 25rem;
 }
 .textSection-3 {
   position: relative;
@@ -148,6 +150,9 @@ p {
   background-color: black;
   min-height: 40rem;
   padding-top: 3rem;
+}
+.textSection-4 > h2{
+  font-size: 40px;
 }
 .textSection-4 {
   display: flex;
@@ -187,6 +192,10 @@ h2 {
 .textSection-5 {
   align-self: center;
 }
+.textSection-5 > h2{
+  color: #000000;
+  font-size: 30px;
+}
 /* div > p {
   color: brown;
 } */
@@ -202,7 +211,7 @@ h2 {
   display: flex;
   gap: 5rem;
   justify-content: center;
-  margin-top: -8rem;
+  margin-top: -12rem;
 }
 .sixthImage {
   max-width: 100%;
