@@ -21,7 +21,7 @@ main {
   font-size: 20rem;
 } */
 .banner {
-  min-width: 100%;
+  max-width: 100%;
   position: relative;
   object-fit: cover;
   height: 100vh;
@@ -98,20 +98,18 @@ p {
   position: absolute;
   width: 540px;
   height: 704px;
-  left: 20%;
-  top: 100%;
+  left: 15rem;
+  top: 64rem;
 }
 .textSection-2 {
-  margin-left: 60rem;
-  margin-top: -15rem;
-  
+  margin-left: 46rem;
+  margin-top: -27rem;
 }
 .textSection-2 > h1 {
   line-height: 48px;
   letter-spacing: -0.5px;
   font-size: 48px;
   color: black;
- 
 }
 .textSection-2 > p {
   font-size: 20px;
@@ -130,16 +128,14 @@ p {
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-
-
 .thirdSection {
   min-height: 80vh;
-  margin-left: 5rem;
+  margin-left: 13rem;
   align-items: center;
   display: flex;
   flex-flow: wrap;
   justify-content: space-around;
-  margin-bottom: -3rem;
+  margin-bottom: -5rem;
 }
 .textSection-3 > h1 {
   line-height: 48px;
@@ -208,7 +204,8 @@ h2 {
 } */
 .sixthSection {
   position: relative;
-  min-height: 200px;
+  min-height: 186px;
+  min-width: 100%;
 }
 .description-6 {
   display: flex;
@@ -217,14 +214,16 @@ h2 {
   margin-top: -8rem;
 }
 .sixthImage {
-  min-width: 100%;
+  max-width: 100%;
   object-fit: cover;
   position: relative;
   z-index: -1;
+  min-width: 100%;
+
 }
 footer {
   background-color: #000000;
-  min-height: 180px;
+  max-width: 100%;
   padding: 2rem;
 }
 span {
