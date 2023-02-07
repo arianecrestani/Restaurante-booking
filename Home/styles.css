@@ -90,21 +90,22 @@ p {
 
 .secondSection {
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  min-height: 35vh;
-  align-items: center;
+  max-height: 30vh;
+
+  gap: 10rem;
 }
 
 .landscape {
-  position: absolute;
+  position: relative;
   width: 540px;
   height: 704px;
-  left: 15rem;
-  top: 64rem;
+  bottom: 30rem;
 }
 .textSection-2 {
-  margin-left: 46rem;
-  margin-top: -27rem;
+  position: relative;
+  bottom: 10rem;
 }
 .textSection-2 > h1 {
   line-height: 48px;
@@ -116,27 +117,14 @@ p {
   font-size: 20px;
   color: black;
 }
-.backgroundImage {
-  position: absolute;
-  width: 871px;
-  height: 319px;
-  left: 0rem;
-  top: 1100px;
-  background: #5c6779;
-  mix-blend-mode: normal;
-  opacity: 0.08;
-  border-radius: 100px 0px 0px 0px;
-  transform: matrix(-1, 0, 0, 1, 0, 0);
-}
 
 .thirdSection {
-  min-height: 80vh;
-  margin-left: 13rem;
-  align-items: center;
   display: flex;
-  flex-flow: wrap;
-  justify-content: space-around;
-  margin-bottom: -5rem;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 35vh;
+  gap: 10rem;
+  bottom: 30rem;
 }
 .textSection-3 > h1 {
   line-height: 48px;
@@ -145,13 +133,15 @@ p {
   color: black;
 }
 .textSection-3 {
+  position: relative;
+  top: 10rem;
   font-size: 48px;
 }
 .imageSection-3 {
-  margin-top: 3rem;
+  position: relative;
   width: 540px;
   height: 720px;
-  margin-top: 4rem;
+  top: 3rem;
 }
 
 .fourthSection {
@@ -220,7 +210,6 @@ h2 {
   position: relative;
   z-index: -1;
   min-width: 100%;
-
 }
 footer {
   background-color: #000000;
