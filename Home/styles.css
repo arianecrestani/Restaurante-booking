@@ -20,7 +20,6 @@ main {
 }
 
 .banner {
-
   min-width: 100%;
   position: relative;
   object-fit: cover;
@@ -80,7 +79,7 @@ p {
   width: 245px;
   height: 64px;
   left: 165px;
-  top: 558px;
+  top: 106%;
 }
 .links {
   display: flex;
@@ -97,7 +96,7 @@ p {
   width: 540px;
   height: 704px;
   left: 180px;
-  top: 870px;
+  top: 101%;
 }
 .textSection-2 > h1 {
   line-height: 48px;
@@ -199,18 +198,20 @@ h2 {
   border: solid 2px red
 } */
 .sixthSection {
-  padding: 4rem;
-  position: absolute;
-  bottom: -205rem;
-  right: 22rem;
+
+  position: relative;
+
 }
 .description-6 {
   display: flex;
   gap: 5rem;
-  z-index: -1;
+  justify-content: center;
+  margin-top: -8rem;
 }
 .sixthImage {
   min-width: 100%;
-  position: relative;
   object-fit: cover;
+  position: relative;
+  z-index: -1;
+
 }
