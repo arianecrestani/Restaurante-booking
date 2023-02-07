@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+.title-1 > h3 {
+  font-weight: 400px;
+  font-size: 36px;
+}
+.banner {
+  min-width: 100%;
+  position: relative;
+  object-fit: cover;
+  height: 100vh;
+  z-index: -1;
+}
+.firstSection {
+  padding: 6rem;
+  position: absolute;
+  bottom: 17rem;
+}
+.title-1 {
+  display: flex;
+  flex-direction: column;
+  color: #ffff;
+}
+
+
+.secondSection {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  padding-top: 10rem;
+}
+.thirdSection {
+
+}
+
+img {
+  min-width: 50%;
+  object-fit: cover;
+  height: 50vh;
+  border: solid 1px;
+}
+
+footer {
+  background-color: #000000;
+  min-height: 200px;
+  padding: 2rem;
+}
+span {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}

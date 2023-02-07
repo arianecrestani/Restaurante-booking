@@ -17,7 +17,9 @@ header {
 main {
   display: inline;
 }
-
+/* .logo {
+  font-size: 20rem;
+} */
 .banner {
   min-width: 100%;
   position: relative;
@@ -35,6 +37,7 @@ button {
 }
 
 .firstSection {
+  display: flex;
   padding: 0 4rem;
   position: relative;
   top: -45rem;
@@ -61,7 +64,7 @@ p {
 
 .title-1 > h3 {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 36px;
 }
 .title-1 h1 {
   font-weight: 300;
@@ -86,27 +89,32 @@ p {
 
 .secondSection {
   display: flex;
-  min-height: 80vh;
+  justify-content: center;
+  min-height: 35vh;
+  align-items: center;
 }
 
 .landscape {
   position: absolute;
   width: 540px;
   height: 704px;
-  left: 180px;
-  top: 101%;
+  left: 20%;
+  top: 100%;
+}
+.textSection-2 {
+  margin-left: 60rem;
+  margin-top: -15rem;
+  
 }
 .textSection-2 > h1 {
   line-height: 48px;
   letter-spacing: -0.5px;
   font-size: 48px;
-  margin-left: 53rem;
   color: black;
-  margin-top: 12rem;
+ 
 }
 .textSection-2 > p {
   font-size: 20px;
-  margin-left: 53rem;
   color: black;
 }
 .backgroundImage {
@@ -121,6 +129,9 @@ p {
   border-radius: 100px 0px 0px 0px;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+
+
+
 .thirdSection {
   min-height: 80vh;
   margin-left: 5rem;
