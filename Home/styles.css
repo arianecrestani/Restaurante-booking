@@ -118,10 +118,6 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-  /* max-width: 25rem;
-  min-width: 25rem; */
-  /* bottom: 30rem; */
 }
 .textSection-3 > h1 {
   line-height: 48px;
@@ -130,12 +126,11 @@ p {
   color: black;
 }
 .textSection-3 {
-   position: relative;
-   max-width: 32rem;
-   gap: 3rem;
-   margin: 2rem;
-   padding-top: 10rem;
-
+  position: relative;
+  max-width: 32rem;
+  gap: 3rem;
+  margin: 2rem;
+  padding-top: 10rem;
 }
 .imageSection-3 {
   position: relative;
@@ -181,19 +176,17 @@ h2 {
   display: flex;
   flex-flow: row;
   justify-content: center;
-  /* margin: 8rem; */
   gap: 2rem;
   max-width: 100%;
-
 }
 .fifthImage {
   min-height: 600px;
   margin: 5rem;
   max-width: 100%;
-
 }
 .textSection-5 {
   align-self: center;
+  max-width: 40rem;
 }
 .textSection-5 > h2 {
   color: #000000;
@@ -208,7 +201,6 @@ h2 {
 .sixthSection {
   position: relative;
   min-height: 186px;
-  /* max-width: 100%; */
 }
 .description-6 {
   display: flex;
