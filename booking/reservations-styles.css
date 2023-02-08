@@ -1,8 +1,17 @@
 body {
-  display: flex;
   margin: 0%;
   font-family: "League Spartan", sans-serif;
-
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 1rem;
+}
+.headerPages {
+  font-size: larger;
+  text-decoration: none;
+  color: #000000;
 }
 
 main {
@@ -18,15 +27,15 @@ main {
 }
 
 .firstSection {
-  padding: 4rem;
+
   position: absolute;
-  bottom: 16rem;
+  bottom: 11rem;
+  left: 8rem;
 }
 
 .title-1 {
   display: flex;
   flex-direction: column;
-  
 }
 .title-1 h3,
 h1,

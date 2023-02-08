@@ -9,8 +9,18 @@ header {
   padding: 1rem;
   margin: 1rem;
 }
-.cancellationPolicy {
-  text-align: center;
+.title-1 h3,
+h1,
+p {
+  font-style: normal;
+  font-family: "League Spartan";
+  top: 15rem;
+  left: 30px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.logo {
+  font-size: 25rem;
 }
 .headerPages {
   font-size: larger;
@@ -18,9 +28,8 @@ header {
   color: #000000;
 }
 .title-1 > h3 {
-  gap: 2rem;
-  font-size: 40px;
-  text-align: justify;
+  font-weight: 400;
+  font-size: 35px;
 }
 .banner {
   min-width: 100%;
@@ -32,33 +41,23 @@ header {
 .firstSection {
 
   position: absolute;
-  bottom: 14rem;
-  left: 5rem;
+  bottom: 10rem;
+  left: 4rem;
 }
 .title-1 {
   display: flex;
   flex-direction: column;
-  color: #ffff;
-  font-size: 25px;
-  line-height: 30px;
-}
-.title-1 p {
-  font-weight: 400;
-  font-size: 20px;
+  color: black;
+  font-size: 30px;
+  text-align: justify;
 }
 
 .secondSection {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  height: 70vh;
-  padding-top: 10rem;
-}
-
-img {
-  min-width: 50%;
-  object-fit: cover;
-  height: 50vh;
-  border: solid 1px;
+  margin: 20rem;
+  text-align: justify;
 }
 
 footer {
@@ -71,4 +70,7 @@ footer > span {
   justify-content: space-evenly;
   display: flex;
   flex-direction: row;
+  color: #ffff;
 }
+
+

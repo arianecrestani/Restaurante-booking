@@ -39,6 +39,7 @@ button {
   padding: 0 10rem;
   position: relative;
   top: -45rem;
+
 }
 .logo {
   font-size: 20rem;
@@ -90,14 +91,15 @@ p {
   flex-direction: row;
   justify-content: center;
   max-height: 20vh;
-  gap: 6rem;
-
+  gap: 6rem; 
 }
 .imageSection-1{
   position: relative;
   width: 540px;
   height: 704px;
   bottom: 580px;
+
+ 
 }
 .textSection-2 {
   position: relative;
