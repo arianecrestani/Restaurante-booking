@@ -90,14 +90,19 @@ p {
   flex-direction: row;
   justify-content: center;
   max-height: 20vh;
-  gap: 8rem;
-}
+  gap: 6rem;
 
-.landscape {
+}
+.imageSection-1{
   position: relative;
   width: 540px;
   height: 704px;
-  bottom: 34rem;
+  bottom: 580px;
+}
+
+.landscape {
+
+
 }
 .textSection-2 {
   position: relative;
@@ -211,7 +216,6 @@ h2 {
   position: absolute;
   top: 17px;
   left: 50px;
-
  
 }
 
