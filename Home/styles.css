@@ -99,11 +99,6 @@ p {
   height: 704px;
   bottom: 580px;
 }
-
-.landscape {
-
-
-}
 .textSection-2 {
   position: relative;
   bottom: 15rem;
@@ -132,9 +127,9 @@ p {
 }
 .textSection-3 {
   position: relative;
-  max-width: 32rem;
+  max-width: 27rem;
   gap: 3rem;
-  margin: 2rem;
+  margin: 4rem;
   padding-top: 10rem;
 }
 .imageSection-3 {
