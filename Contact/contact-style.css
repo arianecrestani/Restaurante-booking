@@ -23,6 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   color: #ffff;
+  gap: 7rem;
 }
 
 .secondSection {

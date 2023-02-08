@@ -36,7 +36,7 @@ button {
 
 .firstSection {
   display: flex;
-  padding: 0 17rem;
+  padding: 0 10rem;
   position: relative;
   top: -45rem;
 }
@@ -89,7 +89,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-height: 30vh;
+  max-height: 20vh;
   gap: 8rem;
 }
 
@@ -181,6 +181,7 @@ h2 {
 }
 .fifthImage {
   min-height: 600px;
+
   margin: 5rem;
   max-width: 100%;
 }
@@ -192,29 +193,28 @@ h2 {
   color: #000000;
   font-size: 30px;
 }
-/* div > p {
-  color: brown;
-} */
-/* input[type = "text"]{
-  border: solid 2px red
-} */
-.sixthSection {
-  position: relative;
-  min-height: 186px;
-}
-.description-6 {
-  display: flex;
-  gap: 5rem;
-  justify-content: center;
-  margin-top: -12rem;
-}
 .sixthImage {
   max-width: 100%;
   object-fit: cover;
   position: relative;
   z-index: -1;
   min-width: 100%;
+  max-height: 30vh;
 }
+
+.sixthSection {
+  position: relative;
+  max-height: 23vh;
+
+}
+.description-6 {
+  position: absolute;
+  top: 17px;
+  left: 50px;
+
+ 
+}
+
 footer {
   background-color: #000000;
   max-width: 100%;
