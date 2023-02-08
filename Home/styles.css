@@ -209,8 +209,10 @@ h2 {
 }
 .description-6 {
   position: absolute;
-  top: 17px;
-  left: 50px;
+  top: 76px;
+  left: 30rem;
+  gap: 2rem;
+  display: flex;
  
 }
 
