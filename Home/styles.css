@@ -39,7 +39,6 @@ button {
   padding: 0 10rem;
   position: relative;
   top: -45rem;
-
 }
 .logo {
   font-size: 20rem;
@@ -92,15 +91,13 @@ p {
   flex-flow: wrap;
   justify-content: center;
   max-height: 20vh;
-  gap: 6rem; 
+  gap: 6rem;
 }
-.imageSection-1{
+.imageSection-1 {
   position: relative;
   width: 540px;
   height: 704px;
   bottom: 580px;
-
- 
 }
 .textSection-2 {
   position: relative;
@@ -122,9 +119,12 @@ p {
   flex-direction: row;
   flex-flow: wrap;
   justify-content: center;
+  /* padding-left: 4rem; */
+  gap: 3rem;
+  align-items: center;
+
 }
 .textSection-3 > h1 {
-  display: flex;
   line-height: 48px;
   letter-spacing: -0.5px;
   font-size: 48px;
@@ -133,16 +133,15 @@ p {
 .textSection-3 {
   position: relative;
   max-width: 35rem;
-  gap: 5rem;
-  margin: 8rem;
-  padding-top: 10rem;
+  padding-left: 5rem;
 }
 .imageSection-3 {
 
   position: relative;
   width: 520px;
   height: 720px;
-  top: 4rem;
+  top: 4rem; 
+ 
 }
 
 .fourthSection {
@@ -212,7 +211,6 @@ h2 {
 .sixthSection {
   position: relative;
   max-height: 23vh;
-
 }
 /* .description-6 {
   position: absolute;
@@ -234,8 +232,7 @@ span {
   flex-direction: row;
 }
 @media (max-width: 600px) {
-  
-  main{
+  main {
     display: grid;
     grid-template-rows: 50vh auto 10vh;
     grid-template-columns: repeat(4, 1fr);
@@ -244,7 +241,5 @@ span {
       "banner banner banner banner"
       ""
       "ft ft ft ft";
-
   }
-
 }
