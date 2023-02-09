@@ -53,4 +53,8 @@
     width: 380px;
     object-fit: cover;
   }
+  .description-6 {
+    top:-5rem;
+
+}
 }
