@@ -225,15 +225,43 @@ span {
   display: flex;
   flex-direction: row;
 }
-@media (max-width: 600px) {
-  main {
-    display: grid;
-    grid-template-rows: 50vh auto 10vh;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas:
-      "header header header"
-      "banner banner banner banner"
-      ""
-      "ft ft ft ft";
+@media (max-width: 970px) {
+  .secondSection {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: unset;
+    max-height: 15vh;
+  }
+  .imageSection-1 {
+    bottom: 26rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .landscape {
+    width: 570px;
+    height: 400px;
+  }
+  .textSection-2 {
+    bottom: 20rem;
+    align-items: center;
+    text-align: center;
+  }
+  .thirdSection {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-items: center;
+    gap: unset;
+ 
+  }
+  .imageSection-3 {
+    top: 3rem;
+
+ 
+  }
+  .textSection-3{
+    text-align: center;
+    bottom: 9rem;
   }
 }
