@@ -89,6 +89,7 @@ p {
 .secondSection {
   display: flex;
   flex-direction: row;
+  flex-flow: wrap;
   justify-content: center;
   max-height: 20vh;
   gap: 6rem; 
@@ -119,6 +120,7 @@ p {
 .thirdSection {
   display: flex;
   flex-direction: row;
+  flex-flow: wrap;
   justify-content: center;
 }
 .textSection-3 > h1 {
@@ -136,8 +138,9 @@ p {
   padding-top: 10rem;
 }
 .imageSection-3 {
+
   position: relative;
-  width: 400px;
+  width: 520px;
   height: 720px;
   top: 4rem;
 }
