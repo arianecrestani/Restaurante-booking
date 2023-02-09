@@ -88,7 +88,6 @@ p {
 .secondSection {
   display: flex;
   flex-direction: row;
-  flex-flow: wrap;
   justify-content: center;
   max-height: 20vh;
   gap: 6rem;
@@ -117,12 +116,9 @@ p {
 .thirdSection {
   display: flex;
   flex-direction: row;
-  flex-flow: wrap;
   justify-content: center;
-  /* padding-left: 4rem; */
   gap: 3rem;
   align-items: center;
-
 }
 .textSection-3 > h1 {
   line-height: 48px;
@@ -136,12 +132,10 @@ p {
   padding-left: 5rem;
 }
 .imageSection-3 {
-
   position: relative;
   width: 520px;
   height: 720px;
-  top: 4rem; 
- 
+  top: 4rem;
 }
 
 .fourthSection {
