@@ -122,6 +122,7 @@ p {
   justify-content: center;
 }
 .textSection-3 > h1 {
+  display: flex;
   line-height: 48px;
   letter-spacing: -0.5px;
   font-size: 48px;
@@ -129,14 +130,14 @@ p {
 }
 .textSection-3 {
   position: relative;
-  max-width: 27rem;
-  gap: 3rem;
-  margin: 4rem;
+  max-width: 35rem;
+  gap: 5rem;
+  margin: 8rem;
   padding-top: 10rem;
 }
 .imageSection-3 {
   position: relative;
-  width: 540px;
+  width: 400px;
   height: 720px;
   top: 4rem;
 }
@@ -176,24 +177,25 @@ h2 {
 .fifthSection {
   min-height: 60vh;
   display: flex;
-  flex-flow: row;
+  flex-direction: row;
+  flex-flow: wrap;
   justify-content: center;
   gap: 2rem;
   max-width: 100%;
 }
 .fifthImage {
   min-height: 600px;
-
   margin: 5rem;
   max-width: 100%;
 }
 .textSection-5 {
   align-self: center;
-  max-width: 40rem;
+  max-width: 30rem;
 }
 .textSection-5 > h2 {
   color: #000000;
   font-size: 30px;
+  align-self: center;
 }
 .sixthImage {
   max-width: 100%;
@@ -209,14 +211,14 @@ h2 {
   max-height: 23vh;
 
 }
-.description-6 {
+/* .description-6 {
   position: absolute;
   top: 76px;
   left: 50rem;
   gap: 2rem;
   display: flex;
  
-}
+} */
 
 footer {
   background-color: #000000;
@@ -227,4 +229,19 @@ span {
   justify-content: space-evenly;
   display: flex;
   flex-direction: row;
+}
+@media (max-width: 600px) {
+  
+  main{
+    display: grid;
+    grid-template-rows: 50vh auto 10vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "header header header"
+      "banner banner banner banner"
+      ""
+      "ft ft ft ft";
+
+  }
+
 }
