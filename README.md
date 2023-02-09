@@ -1,4 +1,4 @@
-# restaurante-booking
+# Restaurante-booking
 
 This project is the first challenge of code academy from berlin.
 
