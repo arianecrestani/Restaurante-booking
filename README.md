@@ -6,9 +6,9 @@ The Desing inspiration I got from front end mentor Website.
 
 
 
-Build with flexbox.
-Html.
-Responsive 
+- Build with flexbox.
+- Html.
+- Responsive media querie
 
 
 
