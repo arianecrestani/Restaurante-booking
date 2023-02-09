@@ -1,9 +1,16 @@
 @media (max-width: 970px) {
+  .banner {
+    max-width: 100%;
+    position: relative;
+    height: 100vh;
+    z-index: -1;
+    min-width: 100%;
+  }
   .firstSection {
     display: flex;
     padding: 0 5rem;
     position: relative;
-    top: -40rem;
+    top: -49rem;
   }
   .secondSection {
     align-items: center;
