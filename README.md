@@ -7,6 +7,6 @@ The Desing inspiration I got from front end mentor Website.
 - Css
 - Html.
 
-## Link see here
+## Link here
 (https://restaurante-booking.netlify.app/index.html)
 
